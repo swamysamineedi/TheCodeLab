@@ -1,0 +1,6 @@
+arr = [10, 25, 8, 45, 30]
+minimum = arr[0]
+for i in arr:
+    if i < minimum:
+        minimum = i
+print("Minimum Element =", minimum)
